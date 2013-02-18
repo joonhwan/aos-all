@@ -13,3 +13,6 @@
 [submodule "library/utilcpp"]
 	path = library/utilcpp
 	url = https://github.com/artofsequence/utilcpp.git
+[submodule "tool/aosdesigner"]
+	path = tool/aosdesigner
+	url = https://github.com/artofsequence/aos-designer.git
