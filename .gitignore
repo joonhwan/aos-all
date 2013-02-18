@@ -1,0 +1,17 @@
+
+
+*.vcxproj*
+*.dir
+*.log
+CMakeFiles
+*.sln
+*cmake_install.cmake
+*.opensdf
+*.sdf
+*.suo
+*.exe
+*.ilk
+*.dll
+*.pdb
+/Build
+CMakeCache.txt
