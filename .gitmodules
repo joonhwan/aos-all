@@ -1,3 +1,6 @@
 [submodule "aosl"]
 	path = aosl
 	url = http://github.com/artofsequence/aosl.git
+[submodule "player/aoswebplayer"]
+	path = player/aoswebplayer
+	url = https://github.com/artofsequence/aos-webplayer.git
