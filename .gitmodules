@@ -4,3 +4,6 @@
 [submodule "player/aoswebplayer"]
 	path = player/aoswebplayer
 	url = https://github.com/artofsequence/aos-webplayer.git
+[submodule "online/demo.artofsequence.org"]
+	path = online/demo.artofsequence.org
+	url = https://github.com/artofsequence/demo.artofsequence.org.git
