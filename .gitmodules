@@ -7,3 +7,6 @@
 [submodule "online/demo.artofsequence.org"]
 	path = online/demo.artofsequence.org
 	url = https://github.com/artofsequence/demo.artofsequence.org.git
+[submodule "library/aoslcpp"]
+	path = library/aoslcpp
+	url = https://github.com/artofsequence/aosl-cpp.git
