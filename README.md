@@ -1,8 +1,6 @@
 Art Of Sequence - Super Repository
 ==================================
 
-Note: THIS IS A WORK IN PROGRESS
-
 This is the super repository gathering all Art Of Sequence 
 projects together (using sub-repositories).
 
