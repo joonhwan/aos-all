@@ -5,6 +5,9 @@ project( ArtOfSequence )
 # Make sure we use UNICODE.
 add_definitions(-DUNICODE -D_UNICODE)
 
+# Force Boost.Thread V4 use for all c++ projects, including dependencies.
+add_definitions( -DBOOST_THREAD_VERSION=4 )
+
 # Use relative paths
 # This is mostly to reduce path size for command-line limits on windows
 if( WIN32 )
@@ -28,6 +31,11 @@ set( BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR}/Build )
 set( EXECUTABLE_OUTPUT_PATH     ${BUILD_DIR} )
 set( LIBRARY_OUTPUT_PATH        ${BUILD_DIR} )
 
+# Add dependencies projects to make thhem visible from IDEs
+add_subdirectory( dependencies )
+
+# From this point, allow generating tests projects.
+enable_testing()
 
 add_subdirectory( aosl )
 add_subdirectory( library )

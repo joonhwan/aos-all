@@ -16,3 +16,6 @@
 [submodule "tool/aosdesigner"]
 	path = tool/aosdesigner
 	url = https://github.com/artofsequence/aos-designer.git
+[submodule "dependencies"]
+	path = dependencies
+	url = E:\\Projects\\Art_Of_Sequence\\repos\\aos-all-dependencies
