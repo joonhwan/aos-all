@@ -31,6 +31,8 @@ set( BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR}/Build )
 set( EXECUTABLE_OUTPUT_PATH     ${BUILD_DIR} )
 set( LIBRARY_OUTPUT_PATH        ${BUILD_DIR} )
 
+set( AOS_TEST_PROJECTS_GROUP_PATH tests )
+
 # Of course we want unit tests possible.
 enable_testing()
 
