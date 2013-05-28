@@ -31,12 +31,16 @@ set( BUILD_DIR ${CMAKE_CURRENT_BINARY_DIR}/Build )
 set( EXECUTABLE_OUTPUT_PATH     ${BUILD_DIR} )
 set( LIBRARY_OUTPUT_PATH        ${BUILD_DIR} )
 
+# Of course we want unit tests possible.
+enable_testing()
+
+# Allow generating test projects if the user want it.
+option( AOS_ENABLE_ALL_TESTS "Enable generation of all test projects of AOS projects" OFF )
+
 # Add dependencies projects to make thhem visible from IDEs
 add_subdirectory( dependencies )
 
-# From this point, allow generating tests projects.
-enable_testing()
-
+# AOS Projects
 add_subdirectory( aosl )
 add_subdirectory( library )
 add_subdirectory( tool )
