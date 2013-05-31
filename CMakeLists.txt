@@ -1,4 +1,4 @@
-cmake_minimum_required( VERSION 2.8 )
+cmake_minimum_required( VERSION 2.8.11 )
 
 project( ArtOfSequence )
 
@@ -24,4 +24,5 @@ add_subdirectory( dependencies )
 # AOS Projects
 add_subdirectory( aosl )
 add_subdirectory( library )
+add_subdirectory( player )
 add_subdirectory( tool )
