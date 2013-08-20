@@ -18,4 +18,4 @@
 	url = https://github.com/artofsequence/aos-designer.git
 [submodule "dependencies"]
 	path = dependencies
-	url = E:\\Projects\\Art_Of_Sequence\\repos\\aos-all-dependencies
+	url = https://github.com/artofsequence/aos-all-dependencies.git
