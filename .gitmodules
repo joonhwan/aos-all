@@ -15,7 +15,7 @@
 	url = https://github.com/artofsequence/utilcpp.git
 [submodule "tool/aosdesigner"]
 	path = tool/aosdesigner
-	url = https://github.com/artofsequence/aos-designer.git
+	url = git@github.com:joonhwan/aos-designer.git
 [submodule "dependencies"]
 	path = dependencies
-	url = E:\\Projects\\Art_Of_Sequence\\repos\\aos-all-dependencies
+	url = https://github.com/artofsequence/aos-all-dependencies.git
